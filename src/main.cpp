@@ -6,8 +6,8 @@
 
 // --- WiFi i Influx ---
 const char* ssid = "Klimek_Tenda";
-const char* password = "internet123";
-const char* influx_host = "http://192.168.0.105:8086/write?db=czujniki";
+const char* password = "haslo";
+const char* influx_host = "http://ip/write?db=czujniki";
 
 // --- Piny ---
 #define DHTPIN1 14
